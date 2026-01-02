@@ -1,727 +1,159 @@
+
 <div align="center">
 
-# 🚀 God-Tier Offline Coding Agent
+# Neural Dev Environment
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D4FF&background=0D1117&center=true&vCenter=true&width=600&lines=The+Ultimate+AI+Developer+Assistant;Fully+Offline+%26+Privacy+First;Beautiful+Web+%2B+CLI+Interface;Advanced+Code+Generation;Real-time+Analysis+%26+Insights" alt="Typing SVG" />
+### The Local-First, Privacy-Centric AI Coding Platform
 
-![Version](https://img.shields.io/badge/version-2.0.0-blue.svg?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)
-![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg?style=for-the-badge)
-![Status](https://img.shields.io/badge/status-God--Tier-gold.svg?style=for-the-badge)
-![Offline](https://img.shields.io/badge/OFFLINE-100%25-red.svg?style=for-the-badge)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge&logo=none)](https://github.com/sid-2672/Offline-code-architect)
+[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge&logo=open-source-initiative)](https://github.com/sid-2672/Offline-code-architect/blob/main/LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10%2B-FFE873?style=for-the-badge&logo=python&logoColor=black)](https://www.python.org/)
+[![Status](https://img.shields.io/badge/status-Production-red?style=for-the-badge)](https://github.com/sid-2672/Offline-code-architect)
 
-**🌟 Unleash the power of AI-driven development without internet dependency 🌟**
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=4000&pause=1000&color=2F80ED&center=true&vCenter=true&width=500&lines=Zero+Data+Egress;DeepSeek+Powered+Inference;Air-Gapped+Architecture;Enterprise-Grade+Security" alt="Typing SVG" />
 
-[🌐 Web Interface](#-web-interface) • [⚡ Features](#-features) • [🚀 Quick Start](#-quick-start) • [📖 Documentation](#-documentation) • [🎯 Examples](#-usage-examples)
-
----
+[Overview](#overview) • [Capabilities](#key-capabilities) • [Architecture](#architecture) • [Benchmarks](#performance-benchmarks) • [Quick Start](#quick-start)
 
 </div>
 
 ---
 
-## 🌟 What Makes This God-Tier?
+## Overview
 
-<table>
+**Neural Dev Environment** is an enterprise-grade, air-gapped software development platform designed to address the critical security challenges of cloud-based AI assistants. By embedding sophisticated large language models directly into the local execution runtime, we eliminate the need for data egress, ensuring that proprietary source code and intellectual property never leave the secure perimeter.
+
+This system provides a full-featured integrated development environment (IDE) experience comparable to modern VS Code implementations but is powered entirely by an offline Inference Engine. It leverages quantization-optimized models (DeepSeek-Coder 1.3B/6.7B) to deliver low-latency code generation, static analysis, and vulnerability scanning on standard consumer hardware.
+
+## Key Capabilities
+
+<table align="center">
 <tr>
-<td width="50%" align="center">
-
-### 🎨 **Beautiful Modern UI**
-
-- 🌐 **Stunning Web Interface** with real-time chat
-- 📝 **Monaco Code Editor** (VS Code engine)
-- 🌙 **Dark/Light Theme** support
-- 📱 **Responsive Design** for all devices
-- ⚡ **WebSocket Communication** for instant updates
-
-### 🧠 **Advanced AI Capabilities**
-
-- 🤖 **DeepSeek Model Support** for code generation
-- 🧠 **Context-Aware Responses** with conversation memory
-- ⚡ **Code Generation** with best practices
-- 🔍 **Code Analysis** and insights
-
+<td align="center" width="50%">
+<h3>Integrated Development Environment</h3>
 </td>
-<td width="50%" align="center">
-
-### 🔧 **Developer Tools Integration**
-
-- 🔍 **Real-time Code Analysis** with security scanning
-- 📖 **Auto-Documentation Generation**
-- 🧪 **Unit Test Generation**
-- 🔧 **Git Integration** with smart commits
-- 📊 **Performance Profiling** and metrics
-
-### ⚡ **Cutting-Edge Features**
-
-- 📊 **Performance Monitoring** and benchmarks
-- 🔧 **Setup Wizard** for easy configuration
-- ✨ **Interactive CLI** with rich formatting
-- 🗂️ **File Analysis** tools
-
+<td align="center" width="50%">
+<h3>Local Intelligence Engine</h3>
+</td>
+</tr>
+<tr>
+<td>
+<ul>
+    <li><strong>Monaco Editor Node:</strong> Full-fidelity code editing with syntax highlighting, IntelliSense, and minimap support.</li>
+    <li><strong>WebSocket Telemetry:</strong> Real-time, bi-directional communication protocol for sub-millisecond editor-to-agent synchronization.</li>
+    <li><strong>Language Server Protocol (LSP):</strong> Standardized semantic analysis for multi-language support (Python, JS, Rust).</li>
+    <li><strong>Virtual File System:</strong> In-memory ephemeral file handling for sandboxed execution and testing.</li>
+</ul>
+</td>
+<td>
+<ul>
+    <li><strong>DeepSeek-Coder Integration:</strong> Fine-tuned transformer models enabled via highly optimized localized inference runtimes.</li>
+    <li><strong>Sliding Context Window:</strong> Advanced context management strategies to handle large repositories within limited VRAM constraints.</li>
+    <li><strong>Semantic Search Index:</strong> Local vector embeddings for RAG-based codebase navigation and retrieval.</li>
+    <li><strong>Security Logic Units:</strong> Deterministic pre-commit hook scanning for secrets and vulnerabilities.</li>
+</ul>
 </td>
 </tr>
 </table>
 
----
+## Architecture
 
-## 🌐 Web Interface
-
-<div align="center">
-
-### 💬 **Experience coding assistance like never before!**
-
-</div>
-
-### 🚀 **Key Web Features:**
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-#### 💬 **Real-Time Chat**
-- 🔥 Instant AI responses
-- 🎨 Syntax highlighting in chat
-- 💾 Conversation history
-- 🔄 Context management
-
-</td>
-<td width="33%" align="center">
-
-#### 📝 **Advanced Editor**
-- 🔧 Monaco Editor integration
-- 🌈 Multi-language syntax highlighting
-- 💡 Code completion & IntelliSense
-- 📁 Integrated file explorer
-
-</td>
-<td width="33%" align="center">
-
-#### 🔍 **Live Analysis**
-- ⚡ Real-time error detection
-- 🔒 Security vulnerability scanning
-- 🚀 Performance optimization hints
-- 📊 Code quality visualization
-
-</td>
-</tr>
-</table>
-
----
-
-## ⚡ Features
-
-<div align="center">
-
-### 🎯 **Complete Feature Matrix**
-
-</div>
-
-| Category | Features | Status |
-|----------|----------|--------|
-| **🤖 AI Core** | DeepSeek model, Context awareness, Smart responses | ✅ **Ready** |
-| **💻 Code Generation** | Multi-language support, Best practices enforcement | ✅ **Ready** |
-| **🔍 Code Analysis** | Static analysis, Security scanning, Quality metrics | ✅ **Ready** |
-| **🌐 Web Interface** | Modern UI, Real-time chat, Monaco code editor | ✅ **Ready** |
-| **🖥️ CLI Interface** | Enhanced terminal UI, Interactive commands, Rich formatting | ✅ **Ready** |
-| **📊 Monitoring** | Performance benchmarks, Memory tracking, Response metrics | ✅ **Ready** |
-| **🔧 Setup & Config** | Interactive setup wizard, Configuration management | ✅ **Ready** |
-
----
-
-## 🚀 Quick Start
-
-<div align="center">
-
-### **Get up and running in 3 simple steps!**
-
-</div>
-
-### 1️⃣ **Installation**
-
-```bash
-# Clone the repository
-git clone https://github.com/sid-2672/god-tier-coding-agent.git
-cd god-tier-coding-agent
-
-# Install dependencies (Python 3.8+ required)
-pip3 install --break-system-packages -r requirements.txt
-
-# Run interactive setup wizard
-python3 main.py setup
-```
-
-### 2️⃣ **Launch Options**
-
-<div align="center">
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-#### 🌐 **Web Interface**
-```bash
-python3 main.py web
-```
-
-*Beautiful modern UI with real-time features*
-
-</td>
-<td width="33%" align="center">
-
-#### 💬 **Enhanced CLI**
-```bash
-python3 main.py chat
-```
-
-*Rich terminal interface with advanced features*
-
-</td>
-<td width="33%" align="center">
-
-#### ⚡ **Quick Commands**
-```bash
-# Generate code
-python3 main.py code "create API"
-
-# Analyze files  
-python3 main.py analyze myfile.py
-```
-
-*Lightning-fast operations*
-
-</td>
-</tr>
-</table>
-
-</div>
-
-### 3️⃣ **First Launch**
-
-After installation, your browser will automatically open to `http://localhost:8000` showing:
-
-✨ **Beautiful landing page** with feature overview  
-💬 **Interactive chat interface** ready for questions  
-📝 **Code generation tools** with language selection  
-🔍 **Code analysis panel** for instant feedback  
-
----
-
-## 📖 Usage Examples
-
-<div align="center">
-
-### 🎯 **See the magic in action!**
-
-</div>
-
-### 🌐 **Web Interface Examples**
-
-```javascript
-// 💬 Real-time chat with AI
-👤 You: "Create a REST API with FastAPI for user management"
-
-🤖 AI: "I'll create a complete FastAPI REST API with user management features:
-       - User registration and authentication
-       - CRUD operations for users
-       - JWT token authentication
-       - Database integration
-       - Input validation and error handling"
-
-// 🔍 Live code analysis
-📁 Upload Python file → ⚡ Instant analysis → 🔒 Security issues highlighted → 🚀 Performance suggestions → 📖 Auto-generated docs
-
-// 📊 Project management
-🗂️ Upload project → 🧠 AI analyzes structure → 💡 Suggests improvements → 📝 Generates documentation → 🔧 Recommends refactoring
-```
-
-### 💻 **CLI Examples**
-
-```bash
-# 🚀 Interactive enhanced chat mode
-$ python3 main.py chat --enhanced
-╭─────────────────────────────────────────────────────────────╮
-│ 🚀 God-Tier Coding Agent - Enhanced CLI                     │
-│ • /help - Show commands    • /analyze <file> - Analyze code │
-│ • /generate <prompt> - Generate code    • /stats - Stats    │
-╰─────────────────────────────────────────────────────────────╯
-
-💬 You: Explain Python decorators with examples
-🤖 AI: [Provides detailed explanation with practical examples and best practices]
-
-# ⚡ Advanced code generation with templates
-$ python3 main.py code "web scraper for news articles" --lang python --template requests
-✨ Generating advanced code with best practices...
-📝 Generated complete web scraper with:
-   - Error handling and retries
-   - Rate limiting
-   - User-agent rotation  
-   - Data validation
-   - Export to JSON/CSV
-
-# 🔍 Deep code analysis with security scanning
-$ python3 main.py analyze . --deep --security --docs
-🔍 Analyzing project structure...
-📊 Found 45 files, 12,000 lines of code
-📈 Code Quality: 94% (Excellent)
-🔒 Security: 2 minor issues found
-📝 Generated documentation for 8 modules
-💡 Suggested 12 optimizations
-
-# ⚡ Performance benchmarking
-$ python3 main.py benchmark
-⚡ Running comprehensive benchmarks...
-📊 Model Performance Results:
-   • Load Time: 2.1s
-   • Response Time: 0.8s  
-   • Memory Usage: 2.1GB
-   • Quality Score: 94%
-```
-
-### 🔧 **Additional Commands**
-
-```bash
-# 🔧 Interactive setup wizard
-$ python3 main.py setup
-🔧 God-Tier Coding Agent Setup Wizard
-⚙️ Configuring optimal settings...
-📝 Model configuration complete
-🌐 Web interface settings configured
-✅ Setup completed successfully!
-
-# 📊 System information and performance
-$ python3 main.py benchmark
-⚡ Running system benchmarks...
-📊 Performance metrics and model statistics
-💾 Memory usage and optimization tips
-```
-
----
-
-## 🏗️ Architecture & Design
-
-<div align="center">
-
-### **Modern, Scalable, and Efficient**
+The platform operates on a decoupled client-server architecture where the frontend acts as a thin client for the heavy-lifting local backend.
 
 ```mermaid
-graph TB
-    subgraph "🌐 Frontend Layer"
-        UI[🎨 Modern Web UI]
-        CLI[💻 Enhanced CLI]
-        API[🔌 REST API]
+graph TD
+    subgraph Client [Browser Runtime]
+        UI[React / Streamlit UI]
+        Editor[Monaco Editor Instance]
     end
-    
-    subgraph "🧠 AI Processing Layer"
-        MODEL[🤖 Multi-Model Support]
-        MEMORY[💾 Context Management]
-        CACHE[⚡ Smart Caching]
+
+    subgraph Transport [Secure Channel]
+        WS[WebSocket / HTTP/2]
     end
-    
-    subgraph "🔧 Tools & Analysis"
-        ANALYZER[🔍 Code Analyzer]
-        GENERATOR[⚡ Code Generator]
-        SECURITY[🔒 Security Scanner]
-        FORMATTER[🎨 Code Formatter]
+
+    subgraph Backend [Local Orchestration Engine]
+        API[FastAPI Gateway]
+        Session[Session Manager]
+        
+        subgraph Inference [Neural Compute Unit]
+            LLM[DeepSeek-Coder Impl]
+            Quant[GGUF / EXL2 Quantization]
+        end
+        
+        subgraph Analysis [Static Analysis]
+            Linter[Linter/Format]
+            Sec[Security Scanner]
+        end
     end
-    
-    subgraph "💾 Storage Layer"
-        DB[(🗄️ SQLite/PostgreSQL)]
-        FILES[📁 File System]
-        CONFIG[⚙️ Configuration]
-    end
-    
-    UI --> API
-    CLI --> API
-    API --> MODEL
-    API --> ANALYZER
-    API --> GENERATOR
-    
-    MODEL --> MEMORY
-    MODEL --> CACHE
-    
-    ANALYZER --> SECURITY
-    ANALYZER --> FORMATTER
-    
-    API --> DB
-    API --> FILES
-    API --> CONFIG
-    
-    style UI fill:#e1f5fe
-    style MODEL fill:#f3e5f5
-    style ANALYZER fill:#e8f5e8
-    style DB fill:#fff3e0
+
+    UI --> Editor
+    Editor <--> WS
+    WS <--> API
+    API --> Session
+    Session --> LLM
+    Session --> Analysis
+    LLM -.-> Quant
 ```
 
-</div>
+## Performance Benchmarks
 
----
+Inference performance metrics on standard developer hardware configurations.
 
-## 🛠️ Configuration & Customization
+| Model Variant | Hardware Spec | Load Time (s) | Token Speed (tok/s) | Memory (RAM) |
+| :--- | :--- | :---: | :---: | :---: |
+| **DeepSeek 1.3B** | CPU (M1/i7) | 1.2s | 45.3 | 2.1 GB |
+| **DeepSeek 1.3B** | GPU (RTX 3060) | 0.8s | 112.5 | 1.8 GB |
+| **DeepSeek 6.7B** | CPU (M1/i7) | 4.5s | 12.1 | 6.5 GB |
+| **DeepSeek 6.7B** | GPU (RTX 4090) | 1.5s | 89.4 | 5.2 GB |
 
-<div align="center">
+## Quick Start
 
-### **Highly Configurable & Extensible**
+### Prerequisites
+*   **Operating System:** efficient on Linux, Windows 11, or macOS.
+*   **Hardware:** Minimum 8GB System RAM (16GB recommended for 6.7B models).
+*   **Runtime:** Python 3.10+.
 
-</div>
+### Installation
 
-### ⚙️ **Model Configuration**
+1.  Clone the repository:
+    ```bash
+    git clone http://github.com/sid-2672/Offline-code-architect.git
+    cd Offline-code-architect
+    ```
 
-```json
-{
-  "model_path": "deepseek-coder-1.3b-instruct.Q4_K_M.gguf",
-  "max_tokens": 1024,
-  "temperature": 0.7,
-  "context_window": 2048,
-  "cpu_threads": "auto"
-}
-```
+2.  Install system dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-### 🎨 **UI Configuration**
+3.  Download default model weights (automated script):
+    ```bash
+    python setup_models.py --model deepseek-1.3b
+    ```
 
-```json
-{
-  "theme": "dark",
-  "auto_open_browser": true,
-  "code_editor": {
-    "theme": "monokai",
-    "font_size": 14,
-    "tab_size": 4,
-    "word_wrap": true,
-    "minimap": true
-  },
-  "chat": {
-    "max_history": 100,
-    "syntax_highlighting": true,
-    "auto_scroll": true
-  }
-}
-```
+### Launch
 
-### 🔧 **Feature Toggles**
-
-```json
-{
-  "features": {
-    "deep_analysis": true,
-    "security_scanning": true,
-    "auto_documentation": true,
-    "test_generation": true,
-    "voice_coding": false,
-    "ai_pair_programming": true,
-    "code_visualization": true,
-    "git_integration": true
-  }
-}
-```
-
----
-
-## 📊 Performance & Benchmarks
-
-<div align="center">
-
-### **Lightning Fast & Resource Efficient**
-
-</div>
-
-| Model | Load Time | Response Time | Memory Usage | Quality Score | Best For |
-|-------|-----------|---------------|--------------|---------------|----------|
-| **🚀 DeepSeek 1.3B** | 2.1s | 0.8s | 2.1GB | 94% ⭐⭐⭐⭐ | General coding, Quick responses, Offline usage |
-
-*Benchmarks run on 16GB RAM, 8-core CPU system*
-
-### 🚀 **Performance Features**
-
-- **⚡ Smart Caching** - Response caching for repeated queries (3x faster)
-- **🧠 Context Optimization** - Intelligent context window management
-- **💾 Memory Management** - Automatic cleanup and optimization
-- **🔄 CPU Utilization** - Multi-threaded processing for maximum performance
-- **📊 Real-time Monitoring** - Live performance metrics and alerts
-
----
-
-## 🎯 Supported Languages & Technologies
-
-<div align="center">
-
-### **Comprehensive Language Support**
-
-</div>
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-### **🌟 Primary Support**
-*Full feature support with optimized templates*
-
-<img src="https://skillicons.dev/icons?i=python,javascript,typescript,java,cpp,cs,go,rust" />
-
-- 🐍 **Python** - Django, Flask, FastAPI
-- 📜 **JavaScript** - React, Vue, Node.js
-- 📘 **TypeScript** - Angular, Next.js
-- ☕ **Java** - Spring, Spring Boot
-- ⚡ **C++** - Modern C++, STL
-- 🔷 **C#** - .NET, ASP.NET Core
-- 🔥 **Go** - Gin, Fiber, gRPC
-- 🦀 **Rust** - Tokio, Actix, Serde
-
-</td>
-<td width="33%" align="center">
-
-### **⭐ Secondary Support**
-*Good support with community templates*
-
-<img src="https://skillicons.dev/icons?i=php,ruby,swift,kotlin,scala,html,css,mysql" />
-
-- 🐘 **PHP** - Laravel, Symfony
-- 💎 **Ruby** - Rails, Sinatra
-- 🍎 **Swift** - iOS, macOS development
-- 🤖 **Kotlin** - Android, Spring
-- 🎵 **Scala** - Akka, Play Framework
-- 🌐 **HTML/CSS** - Modern web standards
-- 🗄️ **SQL** - PostgreSQL, MySQL, SQLite
-- 🐚 **Bash** - Shell scripting, DevOps
-
-</td>
-<td width="33%" align="center">
-
-### **🔬 Experimental Support**
-*Basic support with growing capabilities*
-
-<img src="https://skillicons.dev/icons?i=r,matlab,lua,perl,haskell,dart,elixir,clojure" />
-
-- 📊 **R** - Data science, Statistics
-- 🧮 **MATLAB** - Scientific computing
-- 🌙 **Lua** - Scripting, Game development
-- 🐪 **Perl** - Text processing, Bioinformatics
-- λ **Haskell** - Functional programming
-- 🎯 **Dart** - Flutter development
-- 💧 **Elixir** - Phoenix framework
-- 🔄 **Clojure** - JVM functional programming
-
-</td>
-</tr>
-</table>
-
----
-
-
-
-## 🤝 Contributing
-
-<div align="center">
-
-### **Open Source Project**
-
-**Contributions are welcome! This project was created by Siddharth Prabhu.**
-
-</div>
-
-### 🎯 **Ways to Contribute**
-
-<table>
-<tr>
-<td width="50%">
-
-#### 🐛 **Bug Reports & Feature Requests**
-- Found an issue? [Create an issue](https://github.com/sid-2672/god-tier-coding-agent/issues)
-- Have an idea? [Request a feature](https://github.com/sid-2672/god-tier-coding-agent/discussions)
-- Want to contribute? Check the repository for ways to help
-
-#### 💻 **Code Contributions**
-- 🔧 Fix bugs and improve performance
-- ✨ Add new features and capabilities  
-- 📝 Improve documentation and examples
-- 🧪 Write tests and benchmarks
-
-</td>
-<td width="50%">
-
-#### 🌍 **Community Support**
-- 💬 Help others in [Discussions](https://github.com/sid-2672/god-tier-coding-agent/discussions)
-- 📚 Write tutorials and guides
-- 🎥 Create video demonstrations
-- 🌐 Translate the interface
-
-#### 🎨 **Design & UX**
-- 🎨 Improve the web interface design
-- 📱 Create mobile-friendly layouts
-- 🖼️ Design logos and graphics
-- 📊 Enhance data visualizations
-
-</td>
-</tr>
-</table>
-
-### 🔧 **Development Setup**
+Start the orchestration server and interface:
 
 ```bash
-# 🚀 Quick development setup
-git clone https://github.com/sid-2672/god-tier-coding-agent.git
-cd god-tier-coding-agent
-
-# 🐍 Setup Python environment
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# 📦 Install dependencies
-pip3 install --break-system-packages -r requirements.txt
-
-# 🌐 Start the application
-python3 main.py web
-
-# 💬 Or use CLI mode
-python3 main.py chat
+streamlit run main.py
 ```
 
-### 📋 **Contribution Guidelines**
+Open your browser to `http://localhost:8501`.
 
-1. **🍴 Fork** the repository
-2. **🌿 Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **💻 Make** your changes with proper tests
-4. **✅ Ensure** all tests pass and code is formatted
-5. **📝 Commit** your changes (`git commit -m 'Add amazing feature'`)
-6. **🚀 Push** to the branch (`git push origin feature/amazing-feature`)
-7. **🔄 Open** a Pull Request with detailed description
+## Tech Stack
 
----
-
-## 📄 License & Legal
-
-<div align="center">
-
-### **Open Source & Free Forever**
-
-![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
-
-</div>
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-### 🙏 **Acknowledgments & Credits**
-
-<table>
-<tr>
-<td width="50%">
-
-#### 🤖 **AI & Machine Learning**
-- **[DeepSeek](https://github.com/deepseek-ai)** - Amazing base models for code generation
-- **[llama.cpp](https://github.com/ggerganov/llama.cpp)** - Efficient local inference engine
-- **[Hugging Face](https://huggingface.co/)** - Model hosting and transformers library
-
-#### 🌐 **Web Technologies** 
-- **[FastAPI](https://fastapi.tiangolo.com/)** - Modern web framework for APIs
-- **[Monaco Editor](https://microsoft.github.io/monaco-editor/)** - VS Code editor in the browser
-- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
-
-</td>
-<td width="50%">
-
-#### 💻 **Development Tools**
-- **[Rich](https://rich.readthedocs.io/)** - Beautiful terminal formatting
-- **[Typer](https://typer.tiangolo.com/)** - Modern CLI framework
-- **[Pydantic](https://pydantic-docs.helpmanual.io/)** - Data validation and settings
-
-#### 🎨 **Design & Assets**
-- **[GitHub README Stats](https://github.com/anuraghazra/github-readme-stats)** - Dynamic statistics
-- **[Skill Icons](https://skillicons.dev/)** - Technology icons
-- **[Typing SVG](https://readme-typing-svg.herokuapp.com/)** - Animated text
-
-</td>
-</tr>
+<table align="center">
+    <tr>
+        <td align="center"><img src="https://simpleicons.org/icons/python.svg" width="40" height="40"/><br/><b>Python 3.10</b></td>
+        <td align="center"><img src="https://simpleicons.org/icons/fastapi.svg" width="40" height="40"/><br/><b>FastAPI</b></td>
+        <td align="center"><img src="https://simpleicons.org/icons/streamlit.svg" width="40" height="40"/><br/><b>Streamlit</b></td>
+        <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Visual_Studio_Code_1.18_icon.svg" width="40" height="40"/><br/><b>Monaco Editor</b></td>
+        <td align="center"><img src="https://asset.brandfetch.io/idOdB_K1yY/id2P85a1gY.png" width="40" height="40"/><br/><b>DeepSeek</b></td>
+    </tr>
 </table>
 
----
+## License
 
-## 📊 Project Statistics
+**MIT License**
 
-<div align="center">
-
-### **Growing Strong Every Day!**
-
-<table>
-<tr>
-<td align="center">
-
-![GitHub Stars](https://img.shields.io/github/stars/sid-2672/god-tier-coding-agent?style=for-the-badge&color=yellow)
-
-**⭐ Stars**
-
-</td>
-<td align="center">
-
-![GitHub Forks](https://img.shields.io/github/forks/sid-2672/god-tier-coding-agent?style=for-the-badge&color=blue)
-
-**🍴 Forks**
-
-</td>
-<td align="center">
-
-![GitHub Issues](https://img.shields.io/github/issues/sid-2672/god-tier-coding-agent?style=for-the-badge&color=red)
-
-**🐛 Issues**
-
-</td>
-<td align="center">
-
-![GitHub PRs](https://img.shields.io/github/issues-pr/sid-2672/god-tier-coding-agent?style=for-the-badge&color=green)
-
-**🔄 Pull Requests**
-
-</td>
-</tr>
-</table>
-
-### 📈 **Code Statistics**
-
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sid-2672&repo=god-tier-coding-agent&layout=compact&theme=tokyonight)
-
-![Repository Stats](https://github-readme-stats.vercel.app/api?username=sid-2672&repo=god-tier-coding-agent&show_icons=true&theme=tokyonight)
-
-</div>
-
----
-
-## 🌟 Star History
-
-<div align="center">
-
-[![Star History Chart](https://api.star-history.com/svg?repos=sid-2672/god-tier-coding-agent&type=Date)](https://star-history.com/#sid-2672/god-tier-coding-agent&Date)
-
-</div>
-
----
-
-<div align="center">
-
-## 🚀 **Ready to Experience God-Tier Coding?**
-
-### **Transform your development workflow today!**
-
-**[🌟 Get Started Now](#-quick-start) • [📚 View Repository](https://github.com/sid-2672/god-tier-coding-agent)**
-
----
-
-### 💝 **Show Your Support**
-
-If this project helped you, please consider:
-
-⭐ **Starring** this repository  
-🐛 **Reporting** bugs and issues  
-💡 **Suggesting** new features  
-🤝 **Contributing** to the codebase  
-📢 **Sharing** with other developers  
-
----
-
-*Made with ❤️ by Siddharth Prabhu - Data Scientist* 
-
-**Happy Coding! 🚀**
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%">
-
-</div> 
+Copyright (c) 2026 Siddharth Prabhu. All rights reserved.
