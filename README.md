@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# Neural Dev Environment
+# Offline-code-architect
 
 ### The Local-First, Privacy-Centric AI Coding Platform
 
@@ -20,7 +20,7 @@
 
 ## Overview
 
-**Neural Dev Environment** is an enterprise-grade, air-gapped software development platform designed to address the critical security challenges of cloud-based AI assistants. By embedding sophisticated large language models directly into the local execution runtime, we eliminate the need for data egress, ensuring that proprietary source code and intellectual property never leave the secure perimeter.
+**Offline code architect** is an enterprise-grade, air-gapped software development platform designed to address the critical security challenges of cloud-based AI assistants. By embedding sophisticated large language models directly into the local execution runtime, we eliminate the need for data egress, ensuring that proprietary source code and intellectual property never leave the secure perimeter.
 
 This system provides a full-featured integrated development environment (IDE) experience comparable to modern VS Code implementations but is powered entirely by an offline Inference Engine. It leverages quantization-optimized models (DeepSeek-Coder 1.3B/6.7B) to deliver low-latency code generation, static analysis, and vulnerability scanning on standard consumer hardware.
 
